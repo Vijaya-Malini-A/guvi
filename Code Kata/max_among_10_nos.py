@@ -1,2 +1,2 @@
-li = map(int,raw_input().split())
-print max(li)
+li10 = map(int,raw_input().split())
+print max(li10)
