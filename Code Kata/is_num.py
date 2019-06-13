@@ -10,4 +10,4 @@ if f == 0:
 if s.isdigit():
   print "yes"
 else:
-  print "no"
+  print "No"
