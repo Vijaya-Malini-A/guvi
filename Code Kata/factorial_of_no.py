@@ -1,3 +1,3 @@
 import math
-n = int(raw_input())
-print math.factorial(n)
+N = int(raw_input())
+print math.factorial(N)
