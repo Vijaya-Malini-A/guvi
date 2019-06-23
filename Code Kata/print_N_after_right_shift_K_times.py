@@ -1,2 +1,3 @@
 n, k = list(map(int,input().split()))
-print(n>>k)
+r = n>>k
+print("%.2f"%r)
