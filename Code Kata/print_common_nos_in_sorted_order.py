@@ -4,7 +4,7 @@ s1 = li[:n]
 s2 = li[n:]
 s = []
 for i in range(len(s1)):
-  if s1[i] in s2 and s1[i] not in s:
+  if s1[i] in s2:
     s.append(s1[i])
 s.sort()
 for i in range(len(s)):
