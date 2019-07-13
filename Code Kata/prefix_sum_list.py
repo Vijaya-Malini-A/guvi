@@ -3,6 +3,10 @@ li = list(map(int,input().split()))
 li1 = []
 s = 0
 for i in range(n):
-  s += li[i]
-  li1.append(s)
+  if i%2 != 0:
+    s += li[i]
+    li1.append(s)
+  else:
+    s += li[i]
+    li1.append(li[i])
   print(li1[i],end = " ")
