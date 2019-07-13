@@ -3,7 +3,7 @@ li = list(map(int,input().split()))
 li1 = []
 s = 0
 for i in range(n):
-  if i%2 != 0:
+  if i%2 != 0 or li[i]%2 == 0:
     s += li[i]
     li1.append(s)
   else:
