@@ -1,13 +1,11 @@
 n, k = list(map(int,input().split()))
 li = []
-x = 0
+c = []
 for i in range(n):
   li.append(input())
 for i in range(n-1):
-  for j in range(i+1,n):
-    if li[i] == li[j]:
-      x += 1
-if x == k:
+  c.append(li.count(li[i]))
+if k in c:
   print("yes")
 else:
   print("no")
