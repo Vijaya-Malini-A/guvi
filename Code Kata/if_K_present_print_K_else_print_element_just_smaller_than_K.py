@@ -7,4 +7,4 @@ else:
   for i in range(n-1,-1,-1):
     if li[i] < k:
       print(li[i])
-    break
+      break
